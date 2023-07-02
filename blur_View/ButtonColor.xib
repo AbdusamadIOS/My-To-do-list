@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonColor" customModule="blur_View" customModuleProvider="target">
+            <connections>
+                <outlet property="HighBtn" destination="BRA-Ph-rQJ" id="HDP-96-tjU"/>
+                <outlet property="LowBtn" destination="E6a-HG-2Wr" id="ELK-aK-uxP"/>
+                <outlet property="MediumBtn" destination="sQ8-7L-xf4" id="zK9-oX-hRa"/>
+                <outlet property="NoneBtn" destination="Alh-vg-c6q" id="ENq-HR-rlg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="swh-kA-MsE">
+                    <rect key="frame" x="32" y="476" width="329" height="307"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRA-Ph-rQJ">
+                            <rect key="frame" x="0.0" y="0.0" width="329" height="58"/>
+                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="High">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="ColorBtns:" destination="-1" eventType="touchUpInside" id="Ike-rD-HkB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQ8-7L-xf4">
+                            <rect key="frame" x="0.0" y="83" width="329" height="58"/>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Medium">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="26"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="ColorBtns:" destination="-1" eventType="touchUpInside" id="qRa-o3-P4k"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6a-HG-2Wr">
+                            <rect key="frame" x="0.0" y="166" width="329" height="58"/>
+                            <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Low">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="ColorBtns:" destination="-1" eventType="touchUpInside" id="OMS-86-bCO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Alh-vg-c6q">
+                            <rect key="frame" x="0.0" y="249" width="329" height="58"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="329" id="d0k-8J-slR"/>
+                                <constraint firstAttribute="height" constant="58" id="ulL-ao-uI3"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="None">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="26"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="ColorBtns:" destination="-1" eventType="touchUpInside" id="n6Q-XB-w8Q"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="307" id="EyO-Oz-MDq"/>
+                        <constraint firstAttribute="width" constant="329" id="pZi-W2-kYa"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="swh-kA-MsE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cvb-Ym-WBv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="swh-kA-MsE" secondAttribute="bottom" constant="35" id="lf4-d7-vae"/>
+            </constraints>
+            <point key="canvasLocation" x="69" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

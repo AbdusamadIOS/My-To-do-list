@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1132AA2A0136E90013EAF0 /* AddTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1132A82A0136E90013EAF0 /* AddTextVC.swift */; };
+		EE1132AB2A0136E90013EAF0 /* AddTextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1132A92A0136E90013EAF0 /* AddTextVC.xib */; };
+		EE1132AE2A013CDB0013EAF0 /* ButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1132AC2A013CDB0013EAF0 /* ButtonColor.swift */; };
+		EE1132AF2A013CDB0013EAF0 /* ButtonColor.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1132AD2A013CDB0013EAF0 /* ButtonColor.xib */; };
+		EE1132B22A014A900013EAF0 /* MainVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1132B02A014A900013EAF0 /* MainVCCell.swift */; };
+		EE1132B32A014A900013EAF0 /* MainVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1132B12A014A900013EAF0 /* MainVCCell.xib */; };
+		EE1132B92A0199860013EAF0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1132B82A0199860013EAF0 /* Task.swift */; };
 		EEC3ED282A0039DD00B7A0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED272A0039DD00B7A0D9 /* AppDelegate.swift */; };
-		EEC3ED2A2A0039DD00B7A0D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED292A0039DD00B7A0D9 /* SceneDelegate.swift */; };
-		EEC3ED2C2A0039DD00B7A0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED2B2A0039DD00B7A0D9 /* ViewController.swift */; };
-		EEC3ED2F2A0039DD00B7A0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED2D2A0039DD00B7A0D9 /* Main.storyboard */; };
 		EEC3ED312A0039DE00B7A0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED302A0039DE00B7A0D9 /* Assets.xcassets */; };
 		EEC3ED342A0039DE00B7A0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED322A0039DE00B7A0D9 /* LaunchScreen.storyboard */; };
+		EEC3ED3D2A003A4500B7A0D9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED3B2A003A4500B7A0D9 /* MainVC.swift */; };
+		EEC3ED3E2A003A4500B7A0D9 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED3C2A003A4500B7A0D9 /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1132A82A0136E90013EAF0 /* AddTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextVC.swift; sourceTree = "<group>"; };
+		EE1132A92A0136E90013EAF0 /* AddTextVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTextVC.xib; sourceTree = "<group>"; };
+		EE1132AC2A013CDB0013EAF0 /* ButtonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColor.swift; sourceTree = "<group>"; };
+		EE1132AD2A013CDB0013EAF0 /* ButtonColor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonColor.xib; sourceTree = "<group>"; };
+		EE1132B02A014A900013EAF0 /* MainVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCCell.swift; sourceTree = "<group>"; };
+		EE1132B12A014A900013EAF0 /* MainVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVCCell.xib; sourceTree = "<group>"; };
+		EE1132B82A0199860013EAF0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		EEC3ED242A0039DD00B7A0D9 /* blur_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blur_View.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3ED272A0039DD00B7A0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEC3ED292A0039DD00B7A0D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEC3ED2B2A0039DD00B7A0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEC3ED2E2A0039DD00B7A0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC3ED302A0039DE00B7A0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC3ED332A0039DE00B7A0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC3ED352A0039DE00B7A0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC3ED3B2A003A4500B7A0D9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EEC3ED3C2A003A4500B7A0D9 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				EEC3ED272A0039DD00B7A0D9 /* AppDelegate.swift */,
-				EEC3ED292A0039DD00B7A0D9 /* SceneDelegate.swift */,
-				EEC3ED2B2A0039DD00B7A0D9 /* ViewController.swift */,
-				EEC3ED2D2A0039DD00B7A0D9 /* Main.storyboard */,
+				EEC3ED3B2A003A4500B7A0D9 /* MainVC.swift */,
+				EEC3ED3C2A003A4500B7A0D9 /* MainVC.xib */,
+				EE1132A82A0136E90013EAF0 /* AddTextVC.swift */,
+				EE1132A92A0136E90013EAF0 /* AddTextVC.xib */,
+				EE1132AC2A013CDB0013EAF0 /* ButtonColor.swift */,
+				EE1132AD2A013CDB0013EAF0 /* ButtonColor.xib */,
+				EE1132B02A014A900013EAF0 /* MainVCCell.swift */,
+				EE1132B12A014A900013EAF0 /* MainVCCell.xib */,
+				EE1132B82A0199860013EAF0 /* Task.swift */,
 				EEC3ED302A0039DE00B7A0D9 /* Assets.xcassets */,
 				EEC3ED322A0039DE00B7A0D9 /* LaunchScreen.storyboard */,
 				EEC3ED352A0039DE00B7A0D9 /* Info.plist */,
@@ -125,9 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC3ED3E2A003A4500B7A0D9 /* MainVC.xib in Resources */,
+				EE1132AB2A0136E90013EAF0 /* AddTextVC.xib in Resources */,
 				EEC3ED342A0039DE00B7A0D9 /* LaunchScreen.storyboard in Resources */,
+				EE1132AF2A013CDB0013EAF0 /* ButtonColor.xib in Resources */,
 				EEC3ED312A0039DE00B7A0D9 /* Assets.xcassets in Resources */,
-				EEC3ED2F2A0039DD00B7A0D9 /* Main.storyboard in Resources */,
+				EE1132B32A014A900013EAF0 /* MainVCCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +159,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC3ED2C2A0039DD00B7A0D9 /* ViewController.swift in Sources */,
+				EE1132AA2A0136E90013EAF0 /* AddTextVC.swift in Sources */,
+				EE1132B22A014A900013EAF0 /* MainVCCell.swift in Sources */,
 				EEC3ED282A0039DD00B7A0D9 /* AppDelegate.swift in Sources */,
-				EEC3ED2A2A0039DD00B7A0D9 /* SceneDelegate.swift in Sources */,
+				EEC3ED3D2A003A4500B7A0D9 /* MainVC.swift in Sources */,
+				EE1132B92A0199860013EAF0 /* Task.swift in Sources */,
+				EE1132AE2A013CDB0013EAF0 /* ButtonColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEC3ED2D2A0039DD00B7A0D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEC3ED2E2A0039DD00B7A0D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEC3ED322A0039DE00B7A0D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,11 +305,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blur_View/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My To-Do List";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,11 +334,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blur_View/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My To-Do List";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
